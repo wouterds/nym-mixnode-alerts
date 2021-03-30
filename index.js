@@ -26,6 +26,6 @@ const notifier = require('node-notifier');
     }
 
     mixnodeCount = newMixnodeCount;
-    await new Promise(res => setTimeout(res, 5000));
+    await new Promise(res => setTimeout(res, 15000));
   }
 })();
