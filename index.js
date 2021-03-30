@@ -19,7 +19,7 @@ const notifier = require('node-notifier');
       if (mixnodeCount > newMixnodeCount) {
         notifier.notify({
           title: 'Nym Mixnodes',
-          message: `Noticed a drop in active nym mixnodes: ${mixnodeCount}`
+          message: `Noticed a drop in active nym mixnodes: ${newMixnodeCount}`
         });
       }
 
