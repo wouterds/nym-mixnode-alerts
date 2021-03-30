@@ -3,6 +3,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "node-notifier": "^9.0.1"
   }
 }
